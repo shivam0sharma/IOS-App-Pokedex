@@ -79,6 +79,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="hEz-bW-6yk"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FZw-95-Ma9"/>
+                                </connections>
                             </collectionView>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="pma-Bj-8Q3">
                                 <rect key="frame" x="0.0" y="65" width="375" height="44"/>
