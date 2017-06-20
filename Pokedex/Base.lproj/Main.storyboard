@@ -116,9 +116,12 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="FZw-95-Ma9"/>
                                 </connections>
                             </collectionView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="pma-Bj-8Q3">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search for Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="pma-Bj-8Q3">
                                 <rect key="frame" x="0.0" y="65" width="375" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="QpY-bU-KIJ"/>
+                                </connections>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -139,6 +142,10 @@
                             <constraint firstItem="pma-Bj-8Q3" firstAttribute="top" secondItem="PUl-Zh-v9h" secondAttribute="bottom" id="t1v-nC-XrK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="gTg-4a-eV7" id="TcB-Xj-J3C"/>
+                        <outlet property="searchBar" destination="pma-Bj-8Q3" id="woB-NW-w14"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
