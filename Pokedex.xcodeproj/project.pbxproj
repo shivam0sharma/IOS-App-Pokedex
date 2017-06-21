@@ -19,6 +19,7 @@
 		406FFE231EF9A97700941128 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406FFE221EF9A97700941128 /* Pokemon.ttf */; };
 		406FFE251EF9AB3300941128 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 406FFE241EF9AB3300941128 /* music.mp3 */; };
 		406FFE271EF9B90B00941128 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FFE261EF9B90B00941128 /* PokemonDetailVC.swift */; };
+		406FFE291EF9CF6000941128 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FFE281EF9CF6000941128 /* Constants.swift */; };
 		437EFC92EBB9C5ACF6E2EFCE /* Pods_Pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D923F41D99B791007ED716 /* Pods_Pokedex.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		406FFE221EF9A97700941128 /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
 		406FFE241EF9AB3300941128 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		406FFE261EF9B90B00941128 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		406FFE281EF9CF6000941128 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BE2102703621AB2F79357B19 /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex/Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
 		F1E6C3DE9B8BCFB432EA739A /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				406FFE1F1EF9A44200941128 /* csv.swift */,
+				406FFE281EF9CF6000941128 /* Constants.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				406FFE1C1EF99DE600941128 /* PokemonCell.swift in Sources */,
 				406FFE041EF9924700941128 /* AppDelegate.swift in Sources */,
 				406FFE271EF9B90B00941128 /* PokemonDetailVC.swift in Sources */,
+				406FFE291EF9CF6000941128 /* Constants.swift in Sources */,
 				406FFE191EF9987100941128 /* Pokemon.swift in Sources */,
 				406FFE201EF9A44200941128 /* csv.swift in Sources */,
 			);
@@ -449,6 +453,7 @@
 				406FFE141EF9924700941128 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
